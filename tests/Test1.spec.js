@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 import { constants } from 'node:buffer';
-test('datepicker', async ({page})=> {
+test('@regression  datepicker', async ({page})=> {
 
 await page.goto('https://www.way2automation.com/way2auto_jquery/datepicker.php#load_box');
 
